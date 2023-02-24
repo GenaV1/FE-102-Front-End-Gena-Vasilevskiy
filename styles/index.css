@@ -23,7 +23,9 @@
     margin: 0px 15px;
     padding: 75px 35px;
     gap: 5px;
-    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    background-image: url(/image/pack\ anafi\ 1.png), linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    background-repeat: no-repeat;
+    background-position: top right, center ;
     color: #F4F9FC;
     text-transform: uppercase;
     background-image: ;
@@ -33,7 +35,7 @@
     color: #F4F9FC;
     opacity: 0.6;
 }
-.image {float: left;}
+
 
 .discription {}
 
