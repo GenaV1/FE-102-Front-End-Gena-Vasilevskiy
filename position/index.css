@@ -1,134 +1,32 @@
-* {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-section {
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.list {
-    border: 1px solid black;
-    padding: 15px;
-}
-
-.list-item {
-    line-height: 42px;
-    background-color: rosybrown;
-    margin-bottom: 15px;
-    text-align: center;
-
-}
-
-
-.list-item:first-child {
-    background-color: red;
-}
-
-.list-item:nth-child(even) {
-    background-color: aqua;
-
-}
-
-.list-item:nth-child(odd) {
-    background-color: blueviolet;
-}
-
-.list-item:nth-child(3n) {
-    color: yellow;
-
-}
-
-.nav {
+body {
     padding: 30px;
-    font-size: 20px;
 }
 
-ul {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-.header {
-    background-color: chartreuse;
-    line-height: 40px;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-}
-
-.header::before {
-    background-color: red;
-    content: "";
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    border-radius: 50%;
-}
-
-.header::after {
-    background-color: red;
-    content: "";
-    width: 80px;
-    height: 80px;
-    display: block;
-    border-radius: 50%;
-    margin-left: 200px;
-}
-
-.dd::after {
-    background-color: red;
-    content: "";
-    width: 80px;
-    height: 80px;
-    display: block;
-    border-radius: 50%;
-    margin-left: 200px;
-}
-
-
-.practic {
-    border: 2px solid black;
-    position: relative;
-    height: 1000px;
-    width: 1000px;
-   }
-.square-item:nth-child(1) {
-    border: 2px solid red;
-    height: 300px;
-    width: 300px;
-    position: absolute
+.block {
+    border: 5px solid black;
+    width: 200px;
+    margin: 0px auto;
+    height: 200px;
     
 }
-.square-item:nth-child(2) {
-    border: 2px solid rgb(15, 13, 145);
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    top: 330px;
-    left: 330px;
+.block div {
+    line-height: 50px;
+    text-align: center;
+    
 }
 
+.block__1 {
+    background-color: darkgoldenrod;
+    
+}
 
-.square-item:nth-child(3)
-{
-    border: 2px solid rgb(15, 168, 35);
-    height: 300px;
-    width: 300px;
+.block__2 {
+    background-color: blueviolet;
     position: absolute;
-    right: 0;
-    bottom: 0;
-   }
+    left: 0;
+    top: 0;
+}
 
-
-li {
-    list-style-type: none;
+.block__3 {
+    background-color: darkgreen;
 }
