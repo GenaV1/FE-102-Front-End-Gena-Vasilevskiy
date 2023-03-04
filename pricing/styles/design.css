@@ -35,6 +35,8 @@ html {
     font-family: "Open Sans";
     font-size: 24px;
     font-weight: 700;
+    color:#333333;
+    ;
 }
 
 .media :nth-child(2) {
@@ -43,11 +45,13 @@ html {
     font-weight: 400;
     position: absolute;
     bottom: 18px;
+    color:#86878B;
+    ;
 }
 
 
 
-.links-menu {
+.design-links-menu {
     margin-top: 35px;
     margin-bottom: 35px;
     list-style-type: none;
