@@ -1,0 +1,160 @@
+.design {
+    background-color: #F8EFEF;
+    padding: 18px 0;
+}
+
+.design-container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.design-wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media {
+    width: 470px;
+}
+
+.media-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 36px;
+}
+
+.media-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.design-links-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+}
+
+.links-menu__icon {
+    transition: .2s;
+    margin: 0 15px;
+}
+
+
+.copierate {
+    height: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-brands {
+    font-size: 55px;
+    color: #CCCCCC;
+    transition: .2s;
+}
+
+.fa-brands:hover {
+    transform: rotate(20deg);
+    color: rgb(65, 65, 230);
+}
+
+.fa-solid {
+    font-size: 55px;
+    color: #CCCCCC;
+    transition: .2s;
+    ;
+}
+
+.fa-solid:hover {
+    transform: rotate(20deg);
+    color: rgb(65, 65, 230);
+}
+
+
+
+/* @import url(/pricing/styles/iconfonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Raleway:wght@100;300;400&display=swap');
+html {
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    width: 1510px;
+    height: 164px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.links-menu {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.links-menu__icon {
+    justify-content: space-between;
+    display: flex;
+    width: 53px;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    margin-right: 20px;
+    transition: .2s;
+}
+
+.links-menu__icon:nth-child(7) {
+    margin-right: 20px;
+}
+.copierate 
+{
+height: 21px;
+display: flex;
+justify-content: center;    
+}
+
+.fa-brands {
+    font-size: 40px;
+    color:#CCCCCC;
+    transition: .2s;
+}
+.fa-brands:hover {
+    transform: rotate(20deg);
+    color: rgb(65, 65, 230);
+    }
+
+    .fa-solid {
+        font-size: 40px;
+        color:#CCCCCC;
+        transition: .2s;;
+        }
+    .fa-solid:hover {
+        transform: rotate(20deg);
+        color: rgb(65, 65, 230);
+        }
+
+.copierate {
+font-family: "Raleway";
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+color: #CCCCCC;
+} */

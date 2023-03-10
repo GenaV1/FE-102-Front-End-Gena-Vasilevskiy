@@ -107,7 +107,7 @@
     width: 470px;
     background-color: #FFFFFF;
     border-radius: 10px;
-    
+
 
 }
 
@@ -115,7 +115,7 @@
     display: flex;
     width: 367px;
     height: 90px;
-    margin-left:53px;
+    margin-left: 53px;
     background-color: #FFFFFF;
     justify-content: center;
     align-items: center;
@@ -126,43 +126,47 @@
     letter-spacing: 0em;
     text-align: center;
     text-transform: uppercase;
-    }
-    .group {
-        width: 370px;
-        height: 38px;
-        margin-top: 33px;
-        margin-left: 50px;
-    }
-    input {
-                height: 38px;
-        width: 370px;
-        border: none;
-    }
-    .group::after {
+}
+
+.group {
+    width: 370px;
+    height: 38px;
+    margin-top: 33px;
+    margin-left: 50px;
+}
+
+input {
+    height: 38px;
+    width: 370px;
+    border: none;
+}
+
+.group::after {
     content: '';
     width: 370px;
-    background-color: #828682;
+    background-color: #BDBDBD;
     height: 1px;
     display: block;
-    }
+}
 
-    .form-box button {
-        position: absolute;
-        bottom: 0px;
-        height: 60px;
-        width: 470px;
-        background-color: #EC7979;
-        color: #FFFFFF;
-        border: none;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-    .form-box button:hover {
-        color: #4823cc;
-    }
+.form-box button {
+    position: absolute;
+    bottom: 0px;
+    height: 60px;
+    width: 470px;
+    background-color: #EC7979;
+    color: #FFFFFF;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
-    .colortext {
-        color: #EC7979;
-        white-space: pre;
-       
-    }
+.form-box button:hover {
+    color: #4823cc;
+}
+
+.colortext {
+    color: #EC7979;
+    white-space: pre;
+
+}
