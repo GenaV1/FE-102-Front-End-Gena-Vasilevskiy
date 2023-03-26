@@ -7,7 +7,7 @@
     max-width: 1170px;
     padding: 0 15px;
     margin: auto;
-    
+
 }
 
 .contact-content {
@@ -44,13 +44,14 @@
     color: #000000;
     margin-bottom: 89px;
 }
+
 .contactform-wrap {
     display: flex;
     justify-content: space-between;
-   }
+}
 
 .inputgroup-wrap {
-       width: 555px;
+    width: 555px;
 }
 
 
@@ -81,7 +82,6 @@
     height: 100%;
     border: none;
     outline: none;
-    
 }
 
 .button-wrap {
@@ -89,21 +89,20 @@
     justify-content: center;
 }
 
-
 .contactform-box button {
     height: 58px;
     width: 370px;
     background-color: #EC7979;
     color: #FFFFFF;
     border: none;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     text-align: center;
 }
 
-
 .contactform-box button:hover {
     color: #4823cc;
 }
+

@@ -1,0 +1,40 @@
+@import "_cdn.scss";
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.project {
+    width: 300px;
+    padding: 10px;
+    border: $border;
+    border-radius: $border-radius;
+}
+
+.project-title {
+    font-size: 14px;
+    color: red;
+}
+
+
+.project-description {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.project {
+    width: 300px;
+    padding: 10px;
+
+    &-title {
+        font-size: 14px;
+        color: $black;
+    }
+    &-description {
+        font-size: 18px;
+        font-weight: 500;
+        color: $red;
+    }
+
+    @media (max-width: 760px) {
+        width: 400px;
+    }
+}

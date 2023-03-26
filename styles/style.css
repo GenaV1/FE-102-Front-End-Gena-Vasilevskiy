@@ -226,3 +226,36 @@ hr {
     bottom: -20px;
     left: 70px;
 }
+
+
+
+@media (max-width:800px) {
+    .header {
+        display: none;
+    }
+    .banner {
+        display: none;
+    }
+    .tabs {
+        display: none;
+    }
+    .about {
+        display: none;
+    }
+    .price {
+        display: none;
+    }
+    .us {
+        display: none;
+    }
+    .banner_2 {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+
+}

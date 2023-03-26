@@ -1,0 +1,52 @@
+@mixin container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.features-container {
+    background-color: #E5E5E5;
+    @include container;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 125px;
+    padding-bottom: 33px;
+
+    .container-item {
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+        width: 370px;
+        margin-bottom: 100px;
+
+        .container-item__image {
+            text-align: center;
+            padding-bottom: 29px;
+        }
+
+        .container-item__titel {
+            font-family: 'Raleway';
+            font-weight: 900;
+            color: #2D3033;
+            font-size: 24px;
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .container-item__article {
+            font-family: 'Raleway';
+            font-weight: 900;
+            color: #6C7279;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+
+
+        }
+    }
+
+}

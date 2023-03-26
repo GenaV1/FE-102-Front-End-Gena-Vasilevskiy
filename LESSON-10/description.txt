@@ -1,0 +1,3 @@
+npm init - инициализация проекта
+npm install --save-dev parcel - установка парсела
+npm ran start -  Go Life
